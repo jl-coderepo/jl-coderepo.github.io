@@ -36,7 +36,73 @@ section{
 #hardSpacer01{
     margin-top: 11%;
 }
+#hardSpacer02{
+    padding-top: 1%;
+    background: #333333;
+}
 #aboutDiv{
+    padding-top: 3%;
+    display:none;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 1.1rem;
+    text-indent: 2.0rem;
+    background: #333333;
+}
+#projectsDiv{
+    display:none;
+    color: white;
+    background: #333333;
+}
+#resumeDiv{
+    padding-top: 3%;
+    display:none;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 1.0rem;
+    background: #333333;
+}
+#resumeDiv h3{
+    font-weight: 700;
+}
+#resumeDiv .fa-at{
+    font-size: 0.70rem;
+}
+#resumeDiv .resCon{
+    font-size: 0.87rem;
+}
+#resumeDiv .leftBar{
+    font-size: 1.28rem;
+    padding-bottom: 0.85rem;
+}
+#resumeDiv .resumeItems{
+    padding-top: 1.12rem;
+}
+#resumeDiv .rightBar h6{
+    font-size: 1.15rem;
+}
+#resumeDiv .rightBar ul{
+    padding-bottom: 0.85rem;
+}
+#resumeDlBtn{
+    padding: 2.25rem;
+}
+/* #resumeDiv .rightBar h5{
+    padding-left: -0.20rem;
+}
+#resumeDiv .rightBar li{
+    padding-left: 1.80rem;
+} */
+/* #resumeDiv .col-10{
+    text-align: right;
+} */
+#visLine{
+    border-top: 0.05rem solid white;
+    padding: 0%;
+}
+#contactDiv{
     display:none;
     color: white;
     background: #333333;
