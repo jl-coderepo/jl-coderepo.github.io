@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>June's Page</title>
 
-    <script rel="script" type="text/javascript" src="myScript.js"></script>
+    <!-- <script rel="script" type="text/javascript" src="myScript.js"></script> -->
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="myStyle.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css" integrity="sha384-KA6wR/X5RY4zFAHpv/CnoG2UW1uogYfdnP67Uv7eULvTveboZJg0qUpmJZb5VqzN" crossorigin="anonymous">
@@ -23,7 +23,7 @@
     <div id="topInfo" class="row justify-content-center text-center">
         <div class="col-md-6">
             <h1>June Lee</h1>
-            <h4>Software Developer</h4> 
+            <h4> Software Developer</h4> 
         </div>
     </div>
     <div id="bottomInfo" class="row justify-content-center text-center">
@@ -47,258 +47,20 @@
 
 <!-- Subdivision of what button would display, need to refactor later -->
     <div id=aboutDiv>
-        <div class="container justify-content-center">
-            <div id="hardSpacer02" class="d-none d-md-block"></div>
-            <div class="row">
-                <!-- <div class="d-none d-md-block col-md-1">
-                
-                </div> -->
-                <div class="col-md-6">
-                    <p>
-                        Hello, I'm June and welcome to my profile page. I am a 
-                        budding software engineer based in California. My 
-                        professional interests lies generally in software 
-                        development, but particularily interested in becoming a 
-                        full stack devloper.
-                    </p>
-                    <p>
-                        During my undergraduate studies and after graduating from 
-                        UCLA my primary occupation was in contracting 
-                        (specifically in tenant improvement for commercial). 
-                        However, that is not where my passion lies and now be 
-                        able to move on from contracting and cultivate my skills 
-                        in software development.
-                    </p>
-                </div>
-                <div class="col-md-6">
-                    <p>
-                        Other than that my personal interests lies in fitness. 
-                        I've been slowly improving my fitness levels 
-                        where now I am able to finish a half-marathon, obstacle
-                        course races and everyday improving my ability in lifting 
-                        heavy objects. 
-                    </p>
-                </div>
-                <!-- <div class="d-none d-md-block col-md-1">
-                
-                </div> -->
-            </div>
-        </div>
+        <div id="includeAbout"></div>
     </div>
+
     <div id=projectsDiv>
         <div class="container">
             projects coming soon
+            <div id="includeProjects"></div>
         </div>
     </div>
+
     <div id=resumeDiv>
-        <div id="hardSpacer02" class="d-none d-md-block"></div>
-        <div class="container">
-            <div class="row justify-content-lg-start justify-content-center">
-                <h3>June Lee</h3>
-            </div>
-            <div id="visLine" class="row"></div>
-            <div class="row justify-content-end resCon">
-                <div class="col-9 col-lg-5">
-                    Please contact email, Fair Oaks CA 95628
-                </div>
-            </div>
-            <div class="row justify-content-end resCon">
-                    <div class="col-9 col-lg-2">
-                        (###)###-####
-                    </div>
-                    <!-- <div class="col-lg-1">
-                    
-                    </div> -->
-                    <div class="col-9 col-lg-3">
-                        june87lee<i class="fas fa-at"></i>gmail.com
-                    </div>
-            </div>
-            <div class="row justify-content-end resCon">
-                <div class="col-9 col-lg-5">
-                    https://jl-coderepo.github.io
-                </div>
-            </div>
-
-            <div class="row resumeItems">
-                <div class="col-md-2 leftBar">
-                    EDUCATION
-                </div>
-                <div class="col-md-10 rightBar">
-                    <h6>University of California, Los Angeles</h6>
-                    <section>B.S. in Computer Science, December 2017</section>
-                </div>
-            </div>
-
-            <div class="row resumeItems">
-                <div class="col-md-2 leftBar">
-                    PROJECTS
-                </div>
-                <div class="col-md-10 rightBar">
-                    <div class="row">
-                        <ul>
-                            <h6>Personal Profile Page</h6>
-                            <li>
-                                Webpage dedicated in providing information about myself.
-                            </li>
-                            <li>
-                                Purpose to refamiliarize with full stack development 
-                                (heavy emphasis on front-end).
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="row">
-                        <ul>
-                            <h6>Simple Twitch Chat Bot</h6>
-                            <li>
-                                Simple chat bot using open source Twitch's api (tmi.js).
-                            </li>
-                            <li>
-                                Purpose to refamiliarize with Javascript.
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="row">
-                        <ul>
-                            <h6>Bruinbase</h6>
-                            <li>
-                                A simple class project where we organized data regarding movies and established relevant relations.  
-                            </li>
-                            <li>
-                                Responsible for coding in HTML/CSS for the frontend of the web app (which was responsible for grabbing query data) and coding in C for the database to utilize correct calls to MySQL to get correct query results.
-                            </li>
-                            <li>
-                                Purpose is to learn nuances of databases (class project from a database 
-                                oriented class).
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="row">
-                        <ul>
-                            <h6>Simple 3D Game</h6>
-                            <li>
-                                Used WebGL to create a simple game of a block dodging other blocks.    
-                            </li>
-                            <li>
-                                Responsible for collision detection and physics behind 3D fracture using WebGL and utilizing physics of 2D kinetic collision (somewhat like billiard balls).
-                            </li>
-                            <li>
-                                Purpose is to learn basics of WebGL (class project).
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-
-            <div class="row resumeItems">
-                <div class="col-md-2 leftBar">
-                    COURSES
-                </div>
-                <div class="col-md-10 rightBar">
-                    <div class="row">
-                        <div class="col-md-6">
-                            <section>
-                                Software Engineering
-                            </section>
-                            <section>
-                                Introduction to Computer Graphics
-                            </section>
-                            <section>
-                                Database Systems
-                            </section>
-                        </div>
-                        <div class="col-md-6">
-                            <section>
-                                Algorithms and Complexity
-                            </section>
-                            <section>
-                                Digital Design Project Lab
-                            </section>
-                            <section>
-                                Artificial Intelligence
-                            </section>    
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="row resumeItems">
-                <div class="col-md-2 leftBar">
-                    EXPERIENCE
-                </div>
-                <div class="col-md-10 rightBar">
-                    <h6>Project Manager</h6>
-                    <section>JL Design and Build, January 2018 to present</section>
-                    <section>
-                        Responsible for managing job site tasks and current holder 
-                        of CSLB B license for general building contractor (#1026504).
-                    </section>
-                </div>
-            </div>
-
-            <div class="row resumeItems">
-                <div class="col-md-2 leftBar">
-                    SKILLS
-                </div>
-                <div class="col-md-10 rightBar">
-                    <div class="row">
-                        <div class="col-md-3">
-                            <section>
-                                Javascript
-                            </section>
-                            <section>
-                                HTML/CSS
-                            </section>
-                            <section>
-                                Bench press: 215 lbs
-                            </section>
-                        </div>
-                        <div class="col-md-3">
-                            <section>
-                                Java
-                            </section>
-                            <section>
-                                C/C++
-                            </section>
-                            <section>
-                                Squat: 165 lbs
-                            </section>
-                        </div>
-                        <div class="col-md-3">
-                            <section>
-                                Python
-                            </section>
-                            <section>
-                                MySQL
-                            </section>
-                            <section>
-                                Deadlift: 265 lbs 
-                            </section>
-                        </div>
-                        <div class="col-md-3">
-                            <section>
-                                OCaml
-                            </section>
-                            <section>
-                                CLISP
-                            </section>
-                            <section>
-                                Half-marathon: 2:26:00
-                            </section>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            
-            <div id="resumeDlBtn" class="row justify-content-center">
-                <a href="https://docs.google.com/document/d/1cu80yigsK1TL7jvaAgB2TbJFXdtsbJpmPjWcAjscGJQ/export?format=pdf" class="btn btn-outline-light btn-md">
-                    <i class="fas fa-file-download"></i>
-                    Download
-                </a>
-            </div>
-
-        </div>
+        <div id="includeResume"></div>
     </div>
+
     <div id=contactDiv>
         <div class="container">
             contact coming soon
@@ -307,7 +69,9 @@
 
 
 <!--  scripts necessitated by bootstrap  -->
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script> -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script rel="script" type="text/javascript" src="myScript.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>

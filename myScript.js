@@ -1,3 +1,10 @@
+$(document).ready(function(){
+  $( "#includeAbout" ).load( "./about.html" );
+  $( "#includeResume" ).load( "./resume.html" );
+  $( "#includeProjects" ).load( "./projects.html" );
+});
+
+
 function buttonHandler(numChoice) {
     //definitely not the most efficient way to do it
     var divType = [

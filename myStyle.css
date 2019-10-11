@@ -7,7 +7,7 @@ section{
 #topInfo{
     background: #333333;
 }
-#topInfo div h1{
+#topInfo h1{
     color: white;
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
@@ -15,9 +15,12 @@ section{
     letter-spacing: 0.41rem;
     margin-bottom: 0;
     margin-top: 5%;
+    text-shadow: 0px 4px 3px rgba(0,0,0,0.8),
+                 0px 8px 13px rgba(0,0,0,0.3),
+                 0px 18px 26px rgb(0, 0, 0, 0.3);
     /* border-bottom: 1px solid white; */
 }
-#topInfo div h4{
+#topInfo h4{
     color: white;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
@@ -25,6 +28,9 @@ section{
     letter-spacing: 0.41rem;
     margin-bottom: 1%;
     margin-top: 0;
+    text-shadow: 0px 4px 3px rgba(0,0,0,0.8),
+                 0px 8px 13px rgba(0,0,0,0.3),
+                 0px 18px 26px rgb(0, 0, 0, 0.3);
     /* border-bottom: 1px solid white; */
 }
 #bottomInfo{
