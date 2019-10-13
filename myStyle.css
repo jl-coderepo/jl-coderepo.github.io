@@ -81,6 +81,12 @@ Color Guide:
     text-indent: 2.0rem;
     background: #0B0C10;
 }
+#aboutDiv img{
+    text-align: center;
+    margin: auto;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
 /* 
 Color Guide:
 #0B0C10 >> background, almost black
