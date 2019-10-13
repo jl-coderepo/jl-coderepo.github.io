@@ -1,27 +1,37 @@
+/* 
+Color Guide:
+#0B0C10 >> background, almost black
+#1F2833 >> forground, dark gray
+#C5C6C7 >> light gray
+#66FCF1 >> super accent
+#45A29E >> dull accent
+*/
+
+
 html{
-    background: #333333;
+    background: #0B0C10;
 }
 section{
-    background: #333333;
+    background: #0B0C10;
 }
 #topInfo{
-    background: #333333;
+    background: #0B0C10;
 }
 #topInfo h1{
-    color: white;
+    color: #66FCF1;
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
     font-size: 4.4rem;
     letter-spacing: 0.41rem;
     margin-bottom: 0;
     margin-top: 5%;
-    text-shadow: 0px 4px 3px rgba(0,0,0,0.8),
-                 0px 8px 13px rgba(0,0,0,0.3),
-                 0px 18px 26px rgb(0, 0, 0, 0.3);
+    text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+                 0px 8px 13px rgba(0,0,0,0.1),
+                 0px 18px 23px rgba(0,0,0,0.1);
     /* border-bottom: 1px solid white; */
 }
 #topInfo h4{
-    color: white;
+    color: #45A29E;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 1.2rem;
@@ -34,17 +44,32 @@ section{
     /* border-bottom: 1px solid white; */
 }
 #bottomInfo{
-    background: #333333;
+    background: #0B0C10;
 }
-#bottomInfo .btn{
+/* 
+Color Guide:
+#0B0C10 >> background, almost black
+#1F2833 >> forground, dark gray
+#C5C6C7 >> light gray
+#66FCF1 >> super accent
+#45A29E >> dull accent
+*/
+#bottomInfo .btn.customColor{
     margin: 5px;
+    color: #45A29E;
+    border-color: #45A29E;
+}
+#bottomInfo .btn:hover.customColor{
+    margin: 5px;
+    background-color: #66FCF1;
+    color: #45A29E;
 }
 #hardSpacer01{
     margin-top: 11%;
 }
 #hardSpacer02{
     padding-top: 1%;
-    background: #333333;
+    background: #0B0C10;
 }
 #aboutDiv{
     padding-top: 3%;
@@ -54,12 +79,36 @@ section{
     font-weight: 400;
     font-size: 1.1rem;
     text-indent: 2.0rem;
-    background: #333333;
+    background: #0B0C10;
 }
+/* 
+Color Guide:
+#0B0C10 >> background, almost black
+#1F2833 >> forground, dark gray
+#C5C6C7 >> light gray
+#66FCF1 >> super accent
+#45A29E >> dull accent
+*/
 #projectsDiv{
     display:none;
     color: white;
-    background: #333333;
+    background: #0B0C10;
+}
+#projectCards .card{
+    color: #66FCF1;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    background: #1F2833;
+}
+#projectCards .btn.customColor{
+    margin: 5px;
+    color: #45A29E;
+    border-color: #45A29E;
+}
+#projectCards .btn:hover.customColor{
+    margin: 5px;
+    background-color: #66FCF1;
+    color: #45A29E;
 }
 #resumeDiv{
     padding-top: 3%;
@@ -68,7 +117,7 @@ section{
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 1.0rem;
-    background: #333333;
+    background: #0B0C10;
 }
 #resumeDiv h3{
     font-weight: 700;
@@ -111,7 +160,7 @@ section{
 #contactDiv{
     display:none;
     color: white;
-    background: #333333;
+    background: #0B0C10;
 }
 /* #hardSpacer02{
     margin-top: 12%;

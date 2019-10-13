@@ -14,11 +14,11 @@ function buttonHandler(numChoice) {
       document.getElementById("contactDiv")
     ]
     for(var i = 0; i<4; i++){
-       if(i!==numChoice){
+       //if(i!==numChoice){
          divType[i].style.display = "none";
-       }
-    }
-    if (divType[numChoice].style.display === "none") {
+       //}
+    }//quick fix on initial double click problem
+    if (divType[numChoice].style.display !== "block") {
       divType[numChoice].style.display = "block";
     } else {
       divType[numChoice].style.display = "none";
