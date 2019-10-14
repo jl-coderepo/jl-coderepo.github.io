@@ -2,6 +2,7 @@ $(document).ready(function(){
   $( "#includeAbout" ).load( "./about.html" );
   $( "#includeResume" ).load( "./resume.html" );
   $( "#includeProjects" ).load( "./projects.html" );
+  // $( "#includeFlappyHand" ).load( "./flappyBall.html" );
 });
 
 
@@ -12,6 +13,7 @@ function buttonHandler(numChoice) {
       document.getElementById("projectsDiv"),
       document.getElementById("resumeDiv"),
       document.getElementById("contactDiv")
+      // document.getElementById("flappyHandDiv")
     ]
     for(var i = 0; i<4; i++){
        //if(i!==numChoice){

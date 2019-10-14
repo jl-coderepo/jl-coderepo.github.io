@@ -95,6 +95,11 @@ Color Guide:
 #66FCF1 >> super accent
 #45A29E >> dull accent
 */
+#flappyHandDiv{
+    display:none;
+    color: white;
+    background: #0B0C10;
+}
 #projectsDiv{
     display:none;
     color: white;
