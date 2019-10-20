@@ -1,7 +1,7 @@
 # Personal Page
 
 ### Motivation
-  To re-learn basic html, css, js, and github.
+  Continuously update the site to apply new techniques learned.
 
 ### Description
   Basically my personal page where it showcases information about me, some of my

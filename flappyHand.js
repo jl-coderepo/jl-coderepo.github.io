@@ -16,17 +16,12 @@ var controlModule = (function(){
     function _controlScheme(event){
         var code;
         if (event.key !== undefined) {
-            //console.log("  key");
             code = event.key;
         } else if (event.keyIdentifier !== undefined) {
-            //console.log("  keyIdentifier");
             code = event.keyIdentifier;
         } else if (event.keyCode !== undefined) {
-            //console.log("  keyCode");
             code = event.keyCode;
         }
-        //console.log("  --DEBUG--");
-        //console.log(code);
         if(code==="ArrowUp"){
             _move();
         }
@@ -195,7 +190,9 @@ var gameModule = (function(){
         _loadThenAnimate();
     }
     function _gameOver(){
-        location.reload(); //simple refresh for now
+        reset();
+        //_start();
+        //_animate();
     }
     function _draw(){
         _ctx.drawImage(_landscape.bg,0,0);
@@ -214,6 +211,7 @@ var gameModule = (function(){
                 ( _hand.pos.y <= pPos.y+_pipe.pipeNorth.height || _hand.pos.y+_hand.hand.height >= pPos.y+_constant ) ||
                 _hand.pos.y+_hand.hand.height >= _cvs.height-_landscape.fg.height){
                     _gameOver();
+                    //break;
             }
             if(pPos.x==5){
                 _score++;
