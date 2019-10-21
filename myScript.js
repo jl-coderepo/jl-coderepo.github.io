@@ -2,27 +2,26 @@ $(document).ready(function(){
   $( "#includeAbout" ).load( "./about.html" );
   $( "#includeResume" ).load( "./resume.html" );
   $( "#includeProjects" ).load( "./projects.html" );
-  // $( "#includeFlappyHand" ).load( "./flappyBall.html" );
 });
 
-
 function buttonHandler(numChoice) {
-    //definitely not the most efficient way to do it
+    //decided to just use jQuery instead cause bootstrap is already using it
     var divType = [
-      document.getElementById("aboutDiv"),
-      document.getElementById("projectsDiv"),
-      document.getElementById("resumeDiv"),
-      document.getElementById("contactDiv")
-      // document.getElementById("flappyHandDiv")
-    ]
-    for(var i = 0; i<4; i++){
-       //if(i!==numChoice){
-         divType[i].style.display = "none";
-       //}
-    }//quick fix on initial double click problem
-    if (divType[numChoice].style.display !== "block") {
-      divType[numChoice].style.display = "block";
+      // document.getElementById("aboutDiv"),
+      // document.getElementById("projectsDiv"),
+      // document.getElementById("resumeDiv"),
+      // document.getElementById("contactDiv")
+      "#aboutDiv",
+      "#projectsDiv",
+      "#resumeDiv",
+      "#contactDiv"
+    ];
+    divType.forEach(function(e) {
+      $(e).css("display","none");
+    });
+    if ($(divType[numChoice]).css("display") !== "block") {
+      $(divType[numChoice]).slideDown(420);
     } else {
-      divType[numChoice].style.display = "none";
+      $(divType[numChoice]).css("display","none");
     }
   }
