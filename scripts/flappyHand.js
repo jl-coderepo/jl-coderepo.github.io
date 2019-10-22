@@ -1,13 +1,5 @@
 /*
-
-    "flappyBall" refactor (it's really a rewrite)
-
-    -Better design pattern
-    -need to include
-      + init()
-      + reset()
-      + and additional functions as long as they make sense
-
+    Motivated to utilize revealing module pattern
 */
 
 var controlModule = (function(){
@@ -162,12 +154,12 @@ var gameModule = (function(){
         _pipe.pipeSouth.onload = function(){
             _partialLoad();
         };
-        _landscape.bg.src = "./images/cyberBg.png";
-        _landscape.fg.src = "./images/fg.png";
-        _hand.handUp.src = "./images/handUp.png";
-        _hand.handDwn.src = "./images/handDown.png";
-        _pipe.pipeNorth.src = "./images/pipeNorth.png";
-        _pipe.pipeSouth.src = "./images/pipeSouth.png";
+        _landscape.bg.src = "../images/cyberBg.png";
+        _landscape.fg.src = "../images/fg.png";
+        _hand.handUp.src = "../images/handUp.png";
+        _hand.handDwn.src = "../images/handDown.png";
+        _pipe.pipeNorth.src = "../images/pipeNorth.png";
+        _pipe.pipeSouth.src = "../images/pipeSouth.png";
     }
     function _init(){
         _cvs = document.getElementById("flappyHandCanvas");

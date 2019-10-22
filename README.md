@@ -4,5 +4,6 @@
   Continuously update the site to apply new techniques learned.
 
 ### Description
-  Basically my personal page where it showcases information about me, some of my
-projects, resume, and possibly contact information.
+  A simple frontend project at it's current iteration. Basically my personal 
+  page where it showcases information about me, some of my 
+  projects, and my resume.
